@@ -1,0 +1,84 @@
+/* Green Theme */
+.seeMoreBtnSection {
+  width: 147px;
+  height: 142px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  border: 1px solid rgb(255, 0, 0);
+  align-self: center;
+}
+
+.seeMoreBtnSection:hover .iconRight {
+  transform: translateX(5px);
+}
+
+.seeMoreBtnSection div {
+  width: 60px;
+  height: 60px;
+  background-color: #2b856d;
+  border: 2px solid #01402f;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeMoreBtnSection div .iconRight {
+  color: white;
+  width: 42px;
+  height: 42px;
+  transition: 0.3s;
+}
+
+.seeMoreBtnSection h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  margin-top: 0.3rem;
+}
+
+/* Yellow Theme */
+.seeMoreBtnSectionYellow {
+  width: 100px;
+  height: 160px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  cursor: pointer;
+  /* border: 1px solid rgb(255, 0, 0); */
+}
+
+.seeMoreBtnSectionYellow:hover .iconRight {
+  transform: translateX(5px);
+}
+
+.seeMoreBtnSectionYellow div {
+  width: 60px;
+  height: 60px;
+  background-color: #b4e653;
+  border: 2px solid #3d4427;
+  border-radius: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.seeMoreBtnSectionYellow div .iconRight {
+  color: white;
+  width: 42px;
+  height: 42px;
+  transition: 0.3s;
+}
+
+.seeMoreBtnSectionYellow h4 {
+  color: white;
+  font-size: 17px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  margin-top: 0.3rem;
+}

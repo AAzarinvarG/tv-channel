@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Archivo+Black&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&family=Vollkorn:ital,wght@0,400..900;1,400..900&display=swap");
+
+.socialMediaSection {
+  margin-top: 66px;
+  user-select: none;
+}
+
+.socialMediaSection h1 {
+  color: white;
+  font-size: 21px;
+  font-family: "Archivo Black", sans-serif;
+  text-align: center;
+  letter-spacing: 10px;
+  text-shadow: 0 -3px 1px #38ab8c, 0 3px 2px rgba(255, 255, 255, 0.5);
+  margin-bottom: 27px;
+}
+
+.socialMediaSection .socialMediaIconsSection {
+  display: flex;
+  gap: 0 13px;
+  justify-content: center;
+  width: max-content;
+  margin: 0 auto;
+}
+
+.socialMediaSection .socialMediaIconsSection div {
+  width: 85px;
+  height: 75px;
+  background-color: #38ab8c;
+  border-radius: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  padding-top: 8px;
+  transition: 0.5s;
+  cursor: pointer;
+}
+
+.socialMediaSection .socialMediaIconsSection div:hover {
+  background-color: #2b856d;
+}
+
+.socialMediaSection .socialMediaIconsSection div:hover .icon {
+  transform: translateY(-5px);
+}
+
+.socialMediaSection .socialMediaIconsSection div .icon {
+  width: 37px;
+  height: 37px;
+  filter: drop-shadow(0 4px 4px rgba(0, 0, 0, 0.25));
+  transition: 0.5s;
+}
+
+.socialMediaSection .socialMediaIconsSection div h4 {
+  color: white;
+  font-size: 13px;
+  margin-top: 8px;
+  font-family: "Roboto", sans-serif;
+}
+
+@media (min-width: 400px) {
+  .socialMediaSection h1 {
+    font-size: 25px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    width: 118px;
+    height: 90px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div .icon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div h4 {
+    font-size: 16px;
+    margin-top: 10px;
+  }
+}
+
+@media (min-width: 600px) {
+  .socialMediaSection h1 {
+    font-size: 35px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    width: 125px;
+    height: 97px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div .icon {
+    width: 50px;
+    height: 50px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div h4 {
+    font-size: 18px;
+    margin-top: 12px;
+  }
+}
+
+@media (min-width: 850px) {
+  .socialMediaSection h1 {
+    font-size: 40px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    width: 135px;
+    height: 115px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div h4 {
+    font-size: 22px;
+    margin-top: 14px;
+  }
+}
+
+@media (min-width: 850px) {
+  .socialMediaSection h1 {
+    font-size: 40px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    width: 135px;
+    height: 115px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div .icon {
+    width: 60px;
+    height: 60px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div h4 {
+    font-size: 22px;
+    margin-top: 14px;
+  }
+}
+
+@media (min-width: 1000px) {
+  .socialMediaSection {
+    margin-top: 80px;
+  }
+
+  .socialMediaSection h1 {
+    font-size: 60px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection {
+    gap: 0 25px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    width: 200px;
+    height: 200px;
+    padding-top: 18px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div .icon {
+    width: 75px;
+    height: 75px;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div h4 {
+    font-size: 30px;
+    margin-top: 50px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .socialMediaSection .socialMediaIconsSection {
+    padding: 3rem 8rem;
+    border: 1px solid #38ab8c;
+    border-radius: 5px;
+    box-shadow: inset 1px 1px 35px #2b856d;
+  }
+
+  .socialMediaSection .socialMediaIconsSection div {
+    border-radius: 5px;
+  }
+}

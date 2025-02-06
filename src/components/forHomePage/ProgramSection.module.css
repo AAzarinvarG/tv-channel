@@ -1,0 +1,42 @@
+.programSection {
+  width: 100%;
+}
+
+.seeAllBtn {
+  background-color: #2b856d;
+  color: white;
+  border: 0;
+  width: 96%;
+  height: 32px;
+  border-radius: 4px;
+  margin-left: 2%;
+  margin-top: 5px;
+  cursor: pointer;
+  transition: 0.3s;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+}
+
+.showDetailBtn:hover {
+  opacity: 70%;
+}
+
+@media (min-width: 600px) {
+  .showDetailBtn {
+    height: 45px;
+    font-size: 17px;
+  }
+}
+
+@media (min-width: 900px) {
+  .showDetailBtn {
+    display: none;
+  }
+}
+
+@media (min-width: 1000px) {
+  .seeAllBtn {
+    height: 45px;
+    font-size: 18px;
+  }
+}

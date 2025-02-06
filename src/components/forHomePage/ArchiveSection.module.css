@@ -1,0 +1,155 @@
+.archiveSection {
+  width: 100%;
+  padding-bottom: 1rem;
+  background: rgb(181, 231, 84);
+  background: linear-gradient(180deg,
+      rgba(181, 231, 84, 1) 0%,
+      rgba(19, 5, 26, 1) 100%);
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  position: relative;
+}
+
+.archiveTitle {
+  width: 109px;
+  height: 23px;
+  margin-top: -11.5px;
+  background-color: #a5cf51;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+}
+
+.archiveTitle h3 {
+  color: white;
+  font-size: 14px;
+  font-family: "Roboto", serif;
+  font-weight: bold;
+}
+
+.seeMoreBtn {
+  width: 109px;
+  height: 23px;
+  background-color: #a5cf51;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: -12px;
+  right: 0.5rem;
+  border: 0;
+  font-size: 15px;
+  font-family: "Roboto", serif;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.seeMoreBtn:hover {
+  box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+:global(.archiveSwiperSection .swiper-wrapper) {
+  padding-left: 25px;
+}
+
+.archivePostsSection {
+  width: 100%;
+  margin-top: 19px;
+}
+
+.archivePostsSection .archivePost {
+  width: 210px;
+  height: 160px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.5);
+  background-color: rgba(126, 166, 46, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.archivePostsSection .archivePost .imageHeader {
+  width: 100%;
+  height: 126px;
+  overflow: hidden;
+  background-color: orange;
+  border-radius: 4px 4px 0 0;
+}
+
+.archivePostsSection .archivePost .imageHeader img {
+  width: 100%;
+}
+
+.archivePostsSection .archivePost p {
+  font-size: 10px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  color: white;
+  margin-top: 2px;
+  margin-left: 6px;
+}
+
+@media (max-width: 460px) {
+  .seeMoreBtn {
+    width: 75px;
+    height: 23px;
+  }
+}
+
+@media (min-width: 400px) {
+  .archiveTitle h3 {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  .archivePostsSection .archivePost {
+    width: 230px;
+    height: 180px;
+  }
+
+  .archivePostsSection .archivePost .imageHeader {
+    height: 140px;
+  }
+
+  .archivePostsSection .archivePost p {
+    font-size: 12px;
+    margin-top: 4px;
+  }
+}
+
+@media (min-width: 850px) {
+  .archiveTitle {
+    width: 120px;
+    height: 30px;
+    margin-top: -1rem;
+  }
+
+  .archiveTitle h3 {
+    font-size: 18px;
+  }
+
+  .seeMoreBtn {
+    width: 120px;
+    height: 30px;
+    right: 1rem;
+  }
+}
+
+@media (min-width: 1300px) {
+  .archivePostsSection .archivePost {
+    width: 270px;
+    height: 220px;
+  }
+
+  .archivePostsSection .archivePost .imageHeader {
+    height: 170px;
+  }
+
+  .archivePostsSection .archivePost p {
+    font-size: 14px;
+    margin-top: 6px;
+    margin-left: 8px;
+  }
+}

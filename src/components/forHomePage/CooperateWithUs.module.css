@@ -1,0 +1,174 @@
+.cooperateWithUsSection {
+  width: 100%;
+  margin-top: 46px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.cooperateWithUsSection .cooperateWithUsTitle {
+  width: 156px;
+  height: 23px;
+  background: rgb(183, 220, 238);
+  background: linear-gradient(90deg,
+      rgba(183, 220, 238, 1) 4%,
+      rgba(108, 193, 170, 1) 72%);
+  border-radius: 4px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+  margin-top: -11.5px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  position: absolute;
+}
+
+.cooperateWithUsSection .cooperateWithUsTitle h3 {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  font-size: 14px;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader {
+  width: 100%;
+  display: flex;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader img {
+  width: 40%;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader {
+  width: 100%;
+  background-color: #6cc1aa;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  padding-right: 7px;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader h3 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  margin-bottom: 14px;
+  margin-left: 17px;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader button {
+  width: 141px;
+  height: 27px;
+  background-color: #2b856d;
+  border: 0;
+  border-radius: 4px;
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid #2b856d;
+}
+
+.cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader button:hover {
+  border: 1px solid #2b856d;
+  background-color: #6cc1aa;
+}
+
+.headerImageHanding {
+  width: 100%;
+  height: 35rem;
+  background-image: url("../../../public/images/handing5.png");
+  background-position: top;
+  background-size: cover;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+
+.headerImageHanding h3 {
+  color: white;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  font-size: 30px;
+  text-transform: capitalize;
+  text-shadow: 1px 1px 10px gray, 2px 7px 30px #2b856d;
+}
+
+.headerImageHanding button {
+  margin-top: 1.5rem;
+  width: 360px;
+  height: 50px;
+  background-color: #2b856d;
+  border: 0;
+  border-radius: 6px;
+  color: white;
+  font-size: 20px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  transition: 0.5s;
+  cursor: pointer;
+  border: 1px solid #2b856d;
+}
+
+.headerImageHanding button:hover {
+  border: 1px solid #2b856d;
+  background: none;
+}
+
+@media (min-width: 400px) {
+  .cooperateWithUsSection .cooperateWithUsTitle h3 {
+    font-size: 15px;
+  }
+
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader {
+    padding-right: 5px;
+  }
+}
+
+@media (max-width: 510px) {
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader h3 {
+    text-align: center;
+  }
+}
+
+@media (min-width: 600px) {
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader h3 {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 700px) {
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader h3 {
+    font-size: 19px;
+  }
+}
+
+@media (min-width: 850px) {
+  .cooperateWithUsSection .cooperateWithUsTitle {
+    width: 185px;
+    height: 30px;
+    margin-top: -0.9rem;
+  }
+
+  .cooperateWithUsSection .cooperateWithUsTitle h3 {
+    font-size: 18px;
+  }
+
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader button {
+    width: 150px;
+    height: 36px;
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 930px) {
+  .cooperateWithUsSection .cooperateImageAndTextAndBtnHeader .cooperateWithUsTextHeader h3 {
+    font-size: 23px;
+    text-transform: capitalize;
+  }
+}

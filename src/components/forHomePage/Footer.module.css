@@ -1,0 +1,170 @@
+.footer {
+  background: rgb(70, 19, 96);
+  background: linear-gradient(0deg,
+      rgba(70, 19, 96, 1) 0%,
+      rgba(47, 10, 66, 1) 55%);
+  margin-top: 69px;
+  padding: 10px 0;
+}
+
+.footer h3 {
+  font-family: "Roboto", serif;
+  color: rgba(255, 255, 255, 0.774);
+  font-size: 11px;
+  font-weight: bold;
+  padding-right: 15px;
+  margin-left: 24px;
+}
+
+.footer .buttonsPagesSectionInFooter {
+  margin-top: 25px;
+  padding-left: 24px;
+}
+
+.footer .buttonsPagesSectionInFooter> :nth-child(4) {
+  width: 100px;
+}
+
+.footer .buttonsPagesSectionInFooter> :nth-child(5) {
+  width: 100px;
+}
+
+.footer .buttonsPagesSectionInFooter button {
+  width: 90px;
+  height: 20px;
+  border: 0;
+  font-size: 11px;
+  color: white;
+  border: 1px solid #6cc1aa;
+  border-radius: 4px;
+  background: none;
+  margin-right: 5px;
+  margin-bottom: 13px;
+  cursor: pointer;
+}
+
+.footer .buttonsPagesSectionInFooter button:hover {
+  opacity: 60%;
+}
+
+.footer h2 {
+  color: rgba(255, 255, 255, 0.61);
+  text-align: center;
+  font-size: 13px;
+  font-weight: bold;
+  margin-top: 20px;
+  font-family: "Roboto", serif;
+}
+
+
+@media (min-width: 400px) {
+  .footer h3 {
+    font-size: 14px;
+    padding-right: 20px;
+  }
+
+  .footer .buttonsPagesSectionInFooter {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding: 0 10px;
+    gap: 0 10px;
+  }
+
+  .footer .buttonsPagesSectionInFooter button {
+    width: 110px;
+    height: 30px;
+    font-size: 13px;
+    margin-right: 0;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(4) {
+    width: 125px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(5) {
+    width: 125px;
+  }
+}
+
+@media (min-width: 800px) {
+  .footer h3 {
+    font-size: 17px;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+
+  .footer .buttonsPagesSectionInFooter button {
+    width: 130px;
+    height: 40px;
+    font-size: 16px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(4) {
+    width: 160px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(5) {
+    width: 160px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .footer h3 {
+    font-size: 21px;
+    font-weight: 400;
+    padding-right: 20px;
+  }
+
+  .footer .buttonsPagesSectionInFooter {
+    gap: 0 15px;
+  }
+
+  .footer .buttonsPagesSectionInFooter button {
+    width: 160px;
+    font-size: 17px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(4) {
+    width: 170px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(5) {
+    width: 170px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .footer {
+    padding-bottom: 20px;
+  }
+
+  .footer h2 {
+    font-size: 16px;
+    margin-top: 40px;
+  }
+}
+
+@media (min-width: 1500px) {
+  .footer h3 {
+    text-align: center;
+  }
+
+  .footer .buttonsPagesSectionInFooter {
+    padding-top: 10px;
+  }
+
+  .footer .buttonsPagesSectionInFooter button {
+    width: 170px;
+    height: 45px;
+    font-size: 18px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(4) {
+    width: 185px;
+  }
+
+  .footer .buttonsPagesSectionInFooter> :nth-child(5) {
+    width: 185px;
+  }
+}

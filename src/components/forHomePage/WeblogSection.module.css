@@ -1,0 +1,200 @@
+.weblogSection {
+  width: 100%;
+  padding: 1.5rem 0;
+  background-color: #6bc1a8;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+  position: relative;
+}
+
+.weblogSection .weblogTitle {
+  width: 109px;
+  height: 23px;
+  background-color: #2b856d;
+  border-radius: 4px;
+  margin-top: -2.2rem;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+  position: absolute;
+}
+
+.weblogSection .weblogTitle h3 {
+  font-size: 14px;
+  color: white;
+  font-family: "Roboto", serif;
+}
+
+.weblogSection .seeMoreBtn {
+  width: 109px;
+  height: 23px;
+  background-color: #2b856d;
+  border-radius: 4px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+  position: absolute;
+  top: -12px;
+  right: 0.5rem;
+  border: 0;
+  font-size: 15px;
+  font-family: "Roboto", serif;
+  color: white;
+  transition: 0.3s;
+  cursor: pointer;
+}
+
+.weblogSection .seeMoreBtn:hover {
+  box-shadow: 0 10px 15px 1px rgba(0, 0, 0, 0.25);
+}
+
+.weblogSection .blogsSection {
+  width: 100%;
+  display: flex;
+}
+
+:global(.weblogSectionSwiper .swiper-wrapper) {
+  padding-left: 20px;
+}
+
+.weblogSection .blogsSection .blog {
+  width: 147px;
+  padding-bottom: 0.5rem;
+  background-color: #2b856d;
+  border-radius: 4px;
+  cursor: pointer;
+  box-shadow: 1px 2px 2px rgba(0, 0, 0, 0.25);
+  transition: 0.3s;
+}
+
+.weblogSection .blogsSection .blog:hover img {
+  transform: scale(115%);
+}
+
+.seeMoreImageHeader svg {
+  width: 4rem;
+  height: 4rem;
+  position: absolute;
+}
+
+.weblogSection .blogsSection .blog .imgHeader {
+  width: 100%;
+  height: 110px;
+  overflow: hidden;
+  border-radius: 4px 4px 0 0;
+}
+
+.weblogSection .blogsSection .blog .imgHeader img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+  transition: 0.3s;
+}
+
+.weblogSection .blogsSection .blog p {
+  color: white;
+  font-size: 12px;
+  font-family: "Roboto", serif;
+  margin-left: 0.4rem;
+  margin-top: 0.3rem;
+  padding-right: 0.4rem;
+}
+
+.weblogSection .blogsSection .blog h4 {
+  color: rgba(255, 255, 255, 0.822);
+  font-size: 11px;
+  font-family: "Roboto", serif;
+  margin-left: 0.5rem;
+  margin-top: 0.3rem;
+  padding-right: 0.4rem;
+  font-weight: 400;
+}
+
+@media (max-width: 460px) {
+  .weblogSection .seeMoreBtn {
+    width: 75px;
+    height: 23px;
+  }
+}
+
+@media (min-width: 400px) {
+  .weblogSection .weblogTitle h3 {
+    font-size: 15px;
+  }
+
+  .weblogSection .blogsSection .blog {
+    width: 160px;
+  }
+
+  .weblogSection .blogsSection .blog p {
+    margin-left: 0.5rem;
+  }
+
+  :global(.weblogSectionSwiper .swiper-wrapper) {
+    padding-left: 40px;
+  }
+}
+
+@media (min-width: 500px) {
+  .weblogSection .blogsSection .blog {
+    width: 175px;
+  }
+
+  :global(.weblogSectionSwiper .swiper-wrapper) {
+    padding-left: 35px;
+  }
+}
+
+@media (min-width: 600px) {
+  .weblogSection .blogsSection .blog .imgHeader {
+    height: 130px;
+  }
+
+  .weblogSection .blogsSection .blog p {
+    font-size: 15px;
+    margin-top: 0.4rem;
+  }
+
+  .weblogSection .blogsSection .blog h4 {
+    font-size: 14px;
+    margin-top: 0.5rem;
+  }
+}
+
+@media (min-width: 850px) {
+  .weblogSection .weblogTitle {
+    width: 120px;
+    height: 30px;
+    margin-top: -2.3rem;
+  }
+
+  .weblogSection .seeMoreBtn {
+    width: 120px;
+    height: 30px;
+    right: 1rem;
+  }
+
+  .weblogSection .weblogTitle h3 {
+    font-size: 18px;
+  }
+
+  .weblogSection .blogsSection {
+    margin-top: 1rem;
+  }
+}
+
+@media (min-width: 900px) {
+  .weblogSection .blogsSection .blog {
+    width: 205px;
+  }
+
+  .weblogSection .blogsSection .blog .imgHeader {
+    height: 150px;
+  }
+}
+
+@media (min-width: 1250px) {
+  .weblogSection .blogsSection .blog .imgHeader {
+    height: 180px;
+  }
+}

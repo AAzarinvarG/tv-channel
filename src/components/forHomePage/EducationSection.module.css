@@ -1,0 +1,268 @@
+.educationSection {
+  width: 100%;
+  padding-bottom: 1rem;
+  background: rgb(56, 13, 79);
+  background: linear-gradient(180deg,
+      rgba(56, 13, 79, 1) 0%,
+      rgba(19, 5, 26, 1) 100%);
+  margin-top: 3rem;
+  margin-bottom: 29px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  user-select: none;
+}
+
+.educationSection .educationTitle {
+  width: 109px;
+  height: 23px;
+  margin-top: -11.5px;
+  box-shadow: 0 5px 10px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #3b0d51;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.educationSection .educationTitle h4 {
+  color: white;
+  font-size: 14px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+}
+
+.videoEducationSection {
+  width: 100%;
+  margin-top: 17px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.videoEducationSection svg {
+  width: 25px;
+  height: 34px;
+  color: #9500e0;
+  stroke-width: 4px;
+  margin-right: 5px;
+  margin-left: 5px;
+  cursor: pointer;
+}
+
+.videoEducationSection svg:hover {
+  opacity: 0.7;
+}
+
+.videoEducationSection div {
+  border-radius: 4px;
+  box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.25);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  overflow: hidden;
+}
+
+.videoEducationSection div svg {
+  width: 38px;
+  height: 46px;
+  position: absolute;
+  filter: drop-shadow(0px 7px 7px black);
+}
+
+.videoEducationSection div img {
+  width: 100%;
+}
+
+.detailEducationSection {
+  width: 90%;
+  height: 46px;
+  margin-top: 14px;
+  background-color: #13051a;
+  box-shadow: 0 0 2px #9500e0;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 4px;
+}
+
+.detailEducationSection h4 {
+  color: white;
+  font-size: 11px;
+  font-weight: bold;
+  font-family: "Roboto", serif;
+  margin-left: 10px;
+}
+
+.detailEducationSection button {
+  width: 120px;
+  height: 32px;
+  background-color: #9500e0;
+  margin-right: 8px;
+  border: none;
+  border-radius: 4px;
+  color: white;
+  cursor: pointer;
+  transition: 0.5s;
+}
+
+.detailEducationSection button:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 400px) {
+  .educationSection .educationTitle {
+    font-size: 15px;
+  }
+}
+
+@media (max-width: 400px) {
+  .detailEducationSection button {
+    width: 90px;
+  }
+}
+
+@media (max-width: 499px) {
+  .videoEducationSection div {
+    width: 60%;
+  }
+}
+
+@media (min-width: 500px) {
+  .videoEducationSection div {
+    width: 70%;
+  }
+
+  .videoEducationSection svg {
+    width: 35px;
+    height: 44px;
+  }
+
+  .videoEducationSection div svg {
+    width: 45px;
+    height: 53px;
+  }
+}
+
+@media (min-width: 600px) {
+  .detailEducationSection h4 {
+    font-size: 15px;
+    margin-left: 13px;
+  }
+
+  .detailEducationSection button {
+    font-size: 15px;
+  }
+}
+
+@media (min-width: 700px) {
+  .videoEducationSection div {
+    width: 80%;
+  }
+
+  .videoEducationSection svg {
+    width: 40px;
+    height: 49px;
+  }
+
+  .videoEducationSection div svg {
+    width: 50px;
+    height: 58px;
+  }
+}
+
+@media (min-width: 850px) {
+  .educationSection .educationTitle {
+    width: 140px;
+    height: 30px;
+    margin-top: -1rem;
+  }
+
+  .educationSection .educationTitle h4 {
+    font-size: 18px;
+  }
+}
+
+@media (min-width: 950px) {
+  .detailEducationSection {
+    height: 60px;
+    margin-top: 1.5rem;
+  }
+
+  .detailEducationSection button {
+    font-size: 17px;
+    height: 47px;
+  }
+
+  .detailEducationSection h4 {
+    font-size: 17px;
+  }
+
+  .videoEducationSection div {
+    width: 100%;
+  }
+
+  .videoEducationSection svg {
+    margin-right: 0;
+    position: absolute;
+  }
+
+  .rightIcon {
+    right: 5px;
+  }
+
+  .videoEducationSection {
+    margin-top: 0;
+  }
+
+  .educationSection .educationTitle {
+    position: absolute;
+  }
+}
+
+@media (min-width: 1200px) {
+  .videoEducationSection svg {
+    width: 60px;
+    height: 69px;
+  }
+
+  .videoEducationSection div svg {
+    width: 60px;
+    height: 68px;
+  }
+}
+
+@media (min-width: 1300px) {
+  .videoEducationSection {
+    margin-top: 1.8rem;
+  }
+
+  .videoEducationSection div {
+    width: 80%;
+  }
+
+  .videoEducationSection svg {
+    position: relative;
+  }
+}
+
+@media (min-width: 1600px) {
+  .videoEducationSection div {
+    max-width: 1120px;
+  }
+
+  .videoEducationSection svg {
+    margin-left: 20px;
+  }
+
+  .rightIcon {
+    right: 20px;
+  }
+
+  .videoEducationSection div svg {
+    width: 70px;
+    height: 78px;
+  }
+}

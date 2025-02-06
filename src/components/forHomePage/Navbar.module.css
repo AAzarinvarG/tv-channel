@@ -1,0 +1,124 @@
+.navbar {
+  width: 100%;
+  height: 46px;
+  background-color: rgba(0, 0, 0, 0.7);
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-bottom: #c6ff54 1px solid;
+  box-shadow: 0 2px 40px #000000;
+  position: absolute;
+  z-index: 2;
+  user-select: none;
+}
+
+.navbar section {
+  display: flex;
+  align-items: center;
+}
+
+.hamburgerIcon {
+  width: 35px;
+  height: 35px;
+  color: #f4f6ff;
+  stroke-width: 2.5;
+  margin-left: 0.5rem;
+  cursor: pointer;
+  display: none;
+}
+
+.hamburgerIcon:hover {
+  opacity: 70%;
+}
+
+.logo {
+  width: 35px;
+  height: 39px;
+  color: #f4f6ff;
+  margin-left: 1rem;
+  cursor: pointer;
+}
+
+.logo:hover {
+  opacity: 70%;
+}
+
+.navbar .headerBtnInNavbar {
+  display: flex;
+  margin-left: 2.5rem;
+  gap: 0 2.5rem;
+  /* background-color: pink; */
+}
+
+.navbar .headerBtnInNavbar button {
+  background: none;
+  height: 25px;
+  border: 0;
+  cursor: pointer;
+  border-radius: 4px;
+  color: white;
+  font-family: "Roboto", serif;
+  font-size: 17px;
+  letter-spacing: 0.5px;
+  text-shadow: 1px 1px 5px black, 1px 1px 15px black,
+  1px 1px 30px black;
+}
+
+.navbar .headerBtnInNavbar button:hover {
+  opacity: 70%;
+}
+
+.loginBtn {
+  width: 64px;
+  height: 25px;
+  border: 0;
+  background-color: #2b856d;
+  border-radius: 3px;
+  color: #f4f6ff;
+  font-size: 12px;
+  font-weight: bold;
+  font-family: "Vollkorn", serif;
+  margin-right: 1rem;
+  cursor: pointer;
+}
+
+.loginBtn:hover {
+  opacity: 70%;
+}
+
+/* Responsive Style */
+@media (min-width: 600px) {
+  .navbar {
+    height: 3.75rem;
+  }
+
+  .hamburgerIcon {
+    width: 45px;
+    height: 45px;
+  }
+
+  .logo {
+    width: 45px;
+    height: 49px;
+  }
+
+  .loginBtn {
+    width: 75px;
+    height: 35px;
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 920px) {
+  .navbar section .headerBtnInNavbar {
+    display: none;
+  }
+
+  .hamburgerIcon {
+    display: block;
+  }
+
+  .logo {
+    margin-right: 0;
+  }
+}

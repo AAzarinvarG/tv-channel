@@ -1,0 +1,87 @@
+.menu1 {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #1f0532;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  transform: translateX(-100%);
+  transition: 0.8s;
+  z-index: 3;
+  user-select: none;
+}
+
+.open {
+  transform: translateX(0%);
+}
+
+.menu1 .closeIcon {
+  position: fixed;
+  top: 10px;
+  left: 0.5rem;
+  width: 2.8rem;
+  height: 2.8rem;
+  color: white;
+  stroke-width: 3.5px;
+  cursor: pointer;
+}
+
+.menu1 .closeIcon:hover {
+  opacity: 0.7;
+}
+
+.menu1 section {
+  width: 100%;
+}
+
+.menu1 section .pageLink:first-child {
+  border-bottom: 2px solid #f44336;
+}
+
+.menu1 section .pageLink:last-child {
+  border: none;
+}
+
+.menu1 section .pageLink {
+  width: 90%;
+  height: 5rem;
+  background: none;
+  border-bottom: 2px solid white;
+  margin: 0 auto;
+  display: flex;
+  align-items: center;
+  cursor: pointer;
+}
+
+.menu1 section .pageLink:hover .pageName,
+.pageLink:hover svg,
+.pageLink:hover img {
+  transform: translateX(10px);
+}
+
+.menu1 section .pageLink:nth-child(1) .pageName {
+  color: #f44336;
+}
+
+.menu1 section .pageLink .pageName {
+  color: white;
+  font-family: "Roboto", serif;
+  transition: 0.5s;
+}
+
+.menu1 section .pageLink:nth-child(1) svg {
+  color: #f44336;
+}
+
+.menu1 section .pageLink svg,
+.menu1 section .pageLink img {
+  width: 2rem;
+  height: 2rem;
+  color: white;
+  margin: 0 1rem;
+  transition: 0.5s;
+}
