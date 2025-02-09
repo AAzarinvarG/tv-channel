@@ -36,7 +36,7 @@ export default function LiveSection() {
           </svg>
           <img
             className={styles.liveImage}
-            src="/public/images/deepSea.webp"
+            src="/images/deepSea.webp"
             alt="Live Image"
           />
         </div>

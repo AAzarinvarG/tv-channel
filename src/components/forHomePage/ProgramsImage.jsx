@@ -135,13 +135,13 @@ export default function ProgramsImage() {
 
               {windowSize === "small" ? (
                 <img
-                  src="/public/images/challengersMain.jpg"
+                  src="/images/challengersMain.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
                 <img
-                  src="/public/images/challengersBigSize.jpg"
+                  src="/images/challengersBigSize.jpg"
                   alt=""
                   className={styles.image1}
                 />
@@ -184,13 +184,13 @@ export default function ProgramsImage() {
 
               {windowSize === "small" ? (
                 <img
-                  src="/public/images/aDifferentManMain.jpg"
+                  src="/images/aDifferentManMain.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
                 <img
-                  src="/public/images/diff.jpg"
+                  src="/images/diff.jpg"
                   alt=""
                   className={styles.image1}
                 />
