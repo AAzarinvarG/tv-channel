@@ -15,35 +15,53 @@ export default function WeblogSection() {
           slidesPerView={1.6}
           spaceBetween={0}
           breakpoints={{
-            400: {
+            370: {
               slidesPerView: 2.2,
+            },
+            400: {
+              slidesPerView: 1.7,
+            },
+            470: {
+              slidesPerView: 2.4,
             },
             500: {
               slidesPerView: 2.4,
             },
+            560: {
+              slidesPerView: 2.6,
+            },
             600: {
               slidesPerView: 2.7,
             },
+            680: {
+              slidesPerView: 3.3,
+            },
             800: {
-              slidesPerView: 3.2,
+              slidesPerView: 3.8,
             },
             1000: {
               slidesPerView: 3.6,
             },
+            1060: {
+              slidesPerView: 4.2,
+            },
             1150: {
-              slidesPerView: 4.3,
+              slidesPerView: 4.4,
             },
-            1320: {
-              slidesPerView: 4.6,
+            1300: {
+              slidesPerView: 4.7,
             },
-            1420: {
+            1400: {
               slidesPerView: 5.3,
             },
-            1600: {
+            1500: {
               slidesPerView: 5.6,
             },
-            1700: {
+            1620: {
               slidesPerView: 6.3,
+            },
+            1700: {
+              slidesPerView: 6.6,
             },
           }}
           className="mySwiper weblogSectionSwiper"
