@@ -22,9 +22,9 @@
 .menu1 .closeIcon {
   position: fixed;
   top: 10px;
-  left: 0.5rem;
-  width: 2.8rem;
-  height: 2.8rem;
+  left: 0.8rem;
+  width: 2.5rem;
+  height: 2.5rem;
   color: white;
   stroke-width: 3.5px;
   cursor: pointer;
