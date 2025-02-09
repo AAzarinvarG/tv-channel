@@ -7,17 +7,10 @@ import "swiper/css";
 import "swiper/css/navigation";
 import "swiper/css/pagination";
 import "./SwiperCustomizeStyleForProgramSection.css";
-import { useEffect, useState } from "react";
+import { UseContext } from "../../../context/contextONE";
 
 export default function ProgramsImage() {
-  const [windowSize, setWindowSize] = useState(null);
-
-  useEffect(() => checkingScreenSize, []);
-  window.addEventListener("resize", () => checkingScreenSize());
-
-  function checkingScreenSize() {
-    window.innerWidth > 520 ? setWindowSize("big") : setWindowSize("small");
-  }
+  const { windowWidth } = UseContext();
 
   return (
     <>
@@ -39,7 +32,7 @@ export default function ProgramsImage() {
             <div className={styles.headerImage}>
               <div className={styles.gradient}></div>
 
-              {windowSize === "small" ? (
+              {windowWidth < 520 ? (
                 <img
                   src="/images/frenzy.jpg"
                   alt=""
@@ -88,7 +81,7 @@ export default function ProgramsImage() {
             <div className={styles.headerImage}>
               <div className={styles.gradient}></div>
 
-              {windowSize === "small" ? (
+              {windowWidth < 520 ? (
                 <img src="/images/joker.jpg" alt="" className={styles.image1} />
               ) : (
                 <img
@@ -133,7 +126,7 @@ export default function ProgramsImage() {
             <div className={styles.headerImage}>
               <div className={styles.gradient}></div>
 
-              {windowSize === "small" ? (
+              {windowWidth < 520 ? (
                 <img
                   src="/images/challengersMain.jpg"
                   alt=""
@@ -182,18 +175,14 @@ export default function ProgramsImage() {
             <div className={styles.headerImage}>
               <div className={styles.gradient}></div>
 
-              {windowSize === "small" ? (
+              {windowWidth < 520 ? (
                 <img
                   src="/images/aDifferentManMain.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
-                <img
-                  src="/images/diff.jpg"
-                  alt=""
-                  className={styles.image1}
-                />
+                <img src="/images/diff.jpg" alt="" className={styles.image1} />
               )}
             </div>
 
