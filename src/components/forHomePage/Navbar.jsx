@@ -6,7 +6,7 @@ export default function Navbar() {
 
   function clickOnHamburgerMenuIcon() {
     setMenuStatus(true);
-    setHomePageStatus(false); 
+    setHomePageStatus(false);
   }
 
   return (
