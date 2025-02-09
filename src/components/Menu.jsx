@@ -73,11 +73,11 @@ export default function Menu() {
           <h3 className={styles.pageName}> Archive Page </h3>
         </div>
         <div className={styles.pageLink}>
-          <img src="../../public/icon/video.svg" alt="Video Icon" />
+          <img src="/icon/video.svg" alt="Video Icon" />
           <h3 className={styles.pageName}> Programs Page </h3>
         </div>
         <div className={styles.pageLink}>
-          <img src="../../public/icon/handshake.svg" alt="Handshake Icon" />
+          <img src="/icon/handshake.svg" alt="Handshake Icon" />
           <h3 className={styles.pageName}> Cooperate With Us Page </h3>
         </div>
       </section>
