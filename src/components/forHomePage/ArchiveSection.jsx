@@ -61,7 +61,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trap.jpg" alt="" />
+                  <img src="/public/images/trap.jpg" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -72,7 +72,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trump2.webp" alt="" />
+                  <img src="/public/images/trump2.webp" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -83,7 +83,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trap.jpg" alt="" />
+                  <img src="/public/images/trap.jpg" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -94,7 +94,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trump2.webp" alt="" />
+                  <img src="/public/images/trump2.webp" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -105,7 +105,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trap.jpg" alt="" />
+                  <img src="/public/images/trap.jpg" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -116,7 +116,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trump2.webp" alt="" />
+                  <img src="/public/images/trump2.webp" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -127,7 +127,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trap.jpg" alt="" />
+                  <img src="/public/images/trap.jpg" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,
@@ -138,7 +138,7 @@ export default function ArchiveSection() {
             <SwiperSlide>
               <div className={styles.archivePost}>
                 <div className={styles.imageHeader}>
-                  <img src="../../../public/images/trump2.webp" alt="" />
+                  <img src="/public/images/trump2.webp" alt="" />
                 </div>
                 <p>
                   Trap is a 2024 American psychological thriller film written,

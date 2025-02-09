@@ -29,9 +29,9 @@ export default function EducationSection() {
           </svg>
           <div>
             {windowWidth > 949 ? (
-              <img src="../../../public/images/dicover.jpg" alt="" />
+              <img src="/public/images/dicover.jpg" alt="" />
             ) : (
-              <img src="../../../public/images/tommarow.jpg" alt="" />
+              <img src="/public/images/tommarow.jpg" alt="" />
             )}
             {/* play icon */}
             <svg

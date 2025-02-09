@@ -52,7 +52,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/coca.jpg" alt="coca image" />
+                <img src="/public/images/coca.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -66,7 +66,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/dog.jpg" alt="coca image" />
+                <img src="/public/images/dog.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -80,7 +80,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/coca.jpg" alt="coca image" />
+                <img src="/public/images/coca.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -94,7 +94,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/dog.jpg" alt="coca image" />
+                <img src="/public/images/dog.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -108,7 +108,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/coca.jpg" alt="coca image" />
+                <img src="/public/images/coca.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -122,7 +122,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/dog.jpg" alt="coca image" />
+                <img src="/public/images/dog.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -136,7 +136,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/coca.jpg" alt="coca image" />
+                <img src="/public/images/coca.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>
@@ -150,7 +150,7 @@ export default function WeblogSection() {
             <div className={styles.blog}>
               {/* overflow hidden */}
               <div className={styles.imgHeader}>
-                <img src="../../../public/images/dog.jpg" alt="coca image" />
+                <img src="/public/images/dog.jpg" alt="coca image" />
               </div>
               <p> What problems does drinking soda cause us? </p>
               <h4>

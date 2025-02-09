@@ -12,7 +12,7 @@ export default function CooperateWithUs() {
         </div>
         {windowWidth < 1100 ? (
           <div className={styles.cooperateImageAndTextAndBtnHeader}>
-            <img src="../../../public/images/handing.jpg" alt="two hand" />
+            <img src="/images/handing.jpg" alt="two hand" />
             <div className={styles.cooperateWithUsTextHeader}>
               <h3> Use the button below to cooperate with us. </h3>
               <button> Go There </button>

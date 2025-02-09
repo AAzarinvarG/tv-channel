@@ -85,7 +85,7 @@ export default function SocialMediaSection() {
             {/* telegram icon */}
             <img
               className={styles.icon}
-              src="../../public/images/icons8-telegram.svg"
+              src="/images/icons8-telegram.svg"
               alt=""
             />
             <h4> Telegram </h4>
