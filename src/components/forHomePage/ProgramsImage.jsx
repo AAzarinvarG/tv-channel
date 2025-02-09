@@ -41,13 +41,13 @@ export default function ProgramsImage() {
 
               {windowSize === "small" ? (
                 <img
-                  src="../../../public/images/frenzy.jpg"
+                  src="/images/frenzy.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
                 <img
-                  src="../../../public/images/frenzy2.png"
+                  src="/images/frenzy2.png"
                   alt=""
                   className={styles.image1}
                 />
@@ -89,14 +89,10 @@ export default function ProgramsImage() {
               <div className={styles.gradient}></div>
 
               {windowSize === "small" ? (
-                <img
-                  src="../../../public/images/joker.jpg"
-                  alt=""
-                  className={styles.image1}
-                />
+                <img src="/images/joker.jpg" alt="" className={styles.image1} />
               ) : (
                 <img
-                  src="../../../public/images/jokerbigsize.jpg"
+                  src="/images/jokerbigsize.jpg"
                   alt=""
                   className={styles.image1}
                 />
@@ -139,13 +135,13 @@ export default function ProgramsImage() {
 
               {windowSize === "small" ? (
                 <img
-                  src="../../../public/images/challengersMain.jpg"
+                  src="/public/images/challengersMain.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
                 <img
-                  src="../../../public/images/challengersBigSize.jpg"
+                  src="/public/images/challengersBigSize.jpg"
                   alt=""
                   className={styles.image1}
                 />
@@ -188,13 +184,13 @@ export default function ProgramsImage() {
 
               {windowSize === "small" ? (
                 <img
-                  src="../../../public/images/aDifferentManMain.jpg"
+                  src="/public/images/aDifferentManMain.jpg"
                   alt=""
                   className={styles.image1}
                 />
               ) : (
                 <img
-                  src="../../../public/images/diff.jpg"
+                  src="/public/images/diff.jpg"
                   alt=""
                   className={styles.image1}
                 />
