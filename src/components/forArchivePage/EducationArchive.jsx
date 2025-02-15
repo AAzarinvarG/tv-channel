@@ -1,11 +1,11 @@
-import styles from "./AllArchiveSection.module.css";
+import styles from "./EducationArchive.module.css";
 import ArchiveTitleAndBtn from "./ArchiveTitleAndBtn";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useState } from "react";
 
-export default function AllArchiveSection() {
+export default function EducationArchive() {
   const [archiveTitlePostState, setArchiveTitlePostState] =
-    useState("breaking bad");
+    useState("brain child");
 
   useEffect(() => {
     const archivePostTitle =
@@ -17,24 +17,24 @@ export default function AllArchiveSection() {
   }, []);
 
   return (
-    <section className={styles.allArchiveSection}>
-      <ArchiveTitleAndBtn title="All Archive" />
+    <section className={styles.educationArchiveSection}>
+      <ArchiveTitleAndBtn title="Education Archive" />
 
-      <div className={styles.allArchivePosts}>
+      <div className={styles.educationArchivePosts}>
         <Swiper slidesPerView={1.55} spaceBetween={0} className="mySwiper">
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -42,17 +42,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -60,17 +60,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -78,17 +78,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -96,17 +96,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -114,17 +114,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -132,17 +132,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>
@@ -150,17 +150,17 @@ export default function AllArchiveSection() {
           </SwiperSlide>
           <SwiperSlide>
             <div className={styles.archivePost}>
-              <img src="/images/breaking.jpg" alt="breakingBad" />
+                <img src="/images/girl.jpg" alt="brain child" />
               <div>
                 <h4>{archiveTitlePostState}</h4>
                 <section>
                   <div className={styles.seasonDiv}>
                     <h4> S </h4>
-                    <h3> 5 </h3>
+                    <h3> 1 </h3>
                   </div>
                   <div className={styles.episodeDiv}>
                     <h4> E </h4>
-                    <h3> 16 </h3>
+                    <h3> 5 </h3>
                   </div>
                 </section>
               </div>

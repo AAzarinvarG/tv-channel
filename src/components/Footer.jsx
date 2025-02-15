@@ -1,9 +1,9 @@
 import styles from "./Footer.module.css";
 
-export default function Footer() {
+export default function Footer({ marginTopValue }) {
   return (
     <>
-      <div className={styles.footer}>
+      <div className={styles.footer} style={{ marginTop: marginTopValue }}>
         <h3>
           X network website to see the live broadcast of the network, see the
           archive programs, collaborate with our team and see and read a lot of

@@ -1,0 +1,83 @@
+.educationArchiveSection {
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 15px;
+}
+
+.educationArchiveSection .educationArchivePosts {
+    width: 310px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost {
+    width: 176px;
+    height: 100%;
+    background-color: rgba(126, 166, 46, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div {
+    height: 100%;
+    padding: 5px;
+    padding-bottom: 6px;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div h4 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div section {
+    display: flex;
+    justify-content: center;
+    margin-top: 17px;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div section .seasonDiv,
+.educationArchiveSection .educationArchivePosts .archivePost div section .episodeDiv {
+    width: 44px;
+    height: 26px;
+    background-color: rgba(90, 135, 2, 0.8);
+    margin-left: 10px;
+    margin-top: 3px;
+    border-radius: 3px;
+    padding: 0;
+    padding-top: 5px;
+    display: flex;
+    justify-content: center;
+    box-shadow: 0 0 3px rgba(161, 241, 0, 0.7);
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div .seasonDiv {
+    margin-left: 12px;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div .seasonDiv h4,
+.educationArchiveSection .educationArchivePosts .archivePost div .episodeDiv h4 {
+    position: absolute;
+    font-family: "Roboto", serif;
+    text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+    margin-top: -21px;
+    font-size: 17px;
+}
+
+.educationArchiveSection .educationArchivePosts .archivePost div .seasonDiv h3,
+.educationArchiveSection .educationArchivePosts .archivePost div .episodeDiv h3 {
+    font-size: 16px;
+    font-family: "Roboto", serif;
+    color: white;
+}

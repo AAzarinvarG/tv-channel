@@ -1,0 +1,42 @@
+.newsArchiveSection {
+    width: 310px;
+    margin-left: 10px;
+    margin-top: 20px;
+    margin-bottom: 40px;
+}
+
+.newsArchiveSection .newsArchivePosts {
+    width: 310px;
+    margin-top: 10px;
+    display: flex;
+}
+
+.newsArchiveSection .newsArchivePosts .archivePost {
+    width: 176px;
+    height: 100%;
+    background-color: rgba(126, 166, 46, 0.3);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.newsArchiveSection .newsArchivePosts .archivePost img {
+    width: 100%;
+    border-radius: 4px 4px 0 0;
+}
+
+.newsArchiveSection .newsArchivePosts .archivePost div {
+    height: 100%;
+    padding: 5px;
+    padding-bottom: 6px;
+}
+
+.newsArchiveSection .newsArchivePosts .archivePost div h4 {
+    color: white;
+    font-size: 1rem;
+    font-family: "Roboto", serif;
+    font-weight: 400;
+    text-transform: capitalize;
+}

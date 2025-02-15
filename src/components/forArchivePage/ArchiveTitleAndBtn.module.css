@@ -1,0 +1,34 @@
+ .archiveTitleAndBtn {
+     display: flex;
+     justify-content: space-between;
+     height: 23px;
+     /* background-color: red; */
+ }
+
+ .archiveTitleAndBtn h3 {
+     margin-top: 6px;
+     color: white;
+     font-family: "Vollkorn", serif;
+ }
+
+ .archiveTitleAndBtn button {
+     width: 68px;
+     height: 23px;
+     background-color: rgba(126, 166, 46, 0.3);
+     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25),
+         4px 3px 1px rgba(0, 0, 0, 0.25);
+     border: 0;
+     border-radius: 4px;
+     color: white;
+     font-weight: bold;
+     font-family: "Roboto", serif;
+     font-size: 11px;
+     margin-right: 11px;
+     cursor: pointer;
+     transition: 0.2s;
+ }
+
+ .archiveTitleAndBtn button:hover {
+     opacity: 60%;
+     box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25), 0 0 4px rgba(0, 0, 0, 0.25);
+ }

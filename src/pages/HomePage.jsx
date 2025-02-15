@@ -8,7 +8,7 @@ import EducationSection from "../components/forHomePage/EducationSection";
 import ArchiveSection from "../components/forHomePage/ArchiveSection";
 import CooperateWithUs from "../components/forHomePage/CooperateWithUs";
 import SocialMediaSection from "../components/forHomePage/SocialMediaSection";
-import Footer from "../components/forHomePage/Footer";
+import Footer from "../components/Footer";
 
 export default function HomePage() {
   return (
@@ -21,7 +21,7 @@ export default function HomePage() {
       <ArchiveSection />
       <CooperateWithUs />
       <SocialMediaSection />
-      <Footer />
+      <Footer marginTopValue="69px" />
     </>
   );
 }

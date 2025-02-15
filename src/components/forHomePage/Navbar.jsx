@@ -1,7 +1,9 @@
 import styles from "./Navbar.module.css";
 import { UseContext } from "../../../context/contextONE";
+import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
+  const navigate = useNavigate();
   const { setMenuStatus, setHomePageStatus } = UseContext();
 
   function clickOnHamburgerMenuIcon() {
@@ -37,6 +39,7 @@ export default function Navbar() {
             stroke="currentColor"
             class="size-6"
             className={styles.logo}
+            onClick={() => navigate("/")}
           >
             <path
               stroke-linecap="round"
@@ -46,7 +49,7 @@ export default function Navbar() {
           </svg>
           <div className={styles.headerBtnInNavbar}>
             <button> Live Page </button>
-            <button> Archive Page </button>
+            <button onClick={() => navigate("/archive")}> Archive Page </button>
             <button> Programs Page </button>
             <button> Cooperate With Us Page </button>
           </div>

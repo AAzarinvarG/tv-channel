@@ -1,48 +1,83 @@
 .allArchiveSection {
   width: 310px;
-  /* border: 1px solid red; */
   margin-left: 10px;
   margin-top: 20px;
-}
-
-.allArchiveSection .allArchiveTitleAndBtn {
-  display: flex;
-  justify-content: space-between;
-  /* background-color: aqua; */
-  height: 23px;
-}
-
-.allArchiveSection .allArchiveTitleAndBtn h3 {
-  margin-top: 6px;
-  color: white;
-  font-family: "Vollkorn", serif;
-}
-
-.allArchiveSection .allArchiveTitleAndBtn button {
-  width: 68px;
-  height: 23px;
-  background-color: rgba(126, 166, 46, 0.3);
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25),
-    4px 3px 1px rgba(0, 0, 0, 0.25);
-  border: 0;
-  border-radius: 4px;
-  color: white;
-  font-weight: bold;
-  font-family: "Roboto", serif;
-  font-size: 11px;
-  margin-right: 11px;
-  cursor: pointer;
-  transition: 0.2s;
-}
-
-.allArchiveSection .allArchiveTitleAndBtn button:hover {
-  opacity: 60%;
-  box-shadow: inset 0 0 10px rgba(0, 0, 0, 0.25), 0 0 4px rgba(0, 0, 0, 0.25);
+  margin-bottom: 15px;
 }
 
 .allArchiveSection .allArchivePosts {
   width: 310px;
-  height: 138px;
-  background-color: yellow;
-  margin-top: 5px;
+  margin-top: 10px;
+  display: flex;
+}
+
+.allArchiveSection .allArchivePosts .archivePost {
+  width: 176px;
+  height: 100%;
+  background-color: rgba(126, 166, 46, 0.3);
+  border-radius: 4px;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.25);
+}
+
+.allArchiveSection .allArchivePosts .archivePost img {
+  width: 100%;
+  border-radius: 4px 4px 0 0;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div {
+  height: 100%;
+  padding: 5px;
+  padding-bottom: 6px;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div h4 {
+  color: white;
+  font-size: 1rem;
+  font-family: "Roboto", serif;
+  font-weight: 400;
+  text-transform: capitalize;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div section {
+  display: flex;
+  justify-content: center;
+  margin-top: 17px;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div section .seasonDiv,
+.allArchiveSection .allArchivePosts .archivePost div section .episodeDiv {
+  width: 44px;
+  height: 26px;
+  background-color: rgba(90, 135, 2, 0.8);
+  margin-left: 10px;
+  margin-top: 3px;
+  border-radius: 3px;
+  padding: 0;
+  padding-top: 5px;
+  display: flex;
+  justify-content: center;
+  box-shadow: 0 0 3px rgba(161, 241, 0, 0.7);
+}
+
+.allArchiveSection .allArchivePosts .archivePost div .seasonDiv {
+  margin-left: 12px;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div .seasonDiv h4,
+.allArchiveSection .allArchivePosts .archivePost div .episodeDiv h4 {
+  position: absolute;
+  font-family: "Roboto", serif;
+  text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
+  margin-top: -21px;
+  font-size: 17px;
+}
+
+.allArchiveSection .allArchivePosts .archivePost div .seasonDiv h3,
+.allArchiveSection .allArchivePosts .archivePost div .episodeDiv h3 {
+  font-size: 16px;
+  font-family: "Roboto", serif;
+  color: white;
 }
