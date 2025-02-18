@@ -1,0 +1,17 @@
+.header {
+    height: 100%;
+    background-color: black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header h3 {
+    color: white;
+}
+
+.header h3 mark {
+    background: none;
+    color: red;
+    font-weight: bold;
+}

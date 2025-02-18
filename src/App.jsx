@@ -5,6 +5,9 @@ import HomePage from "./pages/HomePage";
 import Menu from "./components/Menu";
 import ArchivePage from "./pages/ArchivePage";
 import Notfound from "./pages/NotFound";
+import LivePage from "./pages/LivePage";
+import ProgramsPage from "./pages/ProgramsPage";
+import CooperateWithUsPage from "./pages/CooperateWithUsPage";
 
 function App() {
   return (
@@ -13,7 +16,10 @@ function App() {
         <BrowserRouter>
           <Routes>
             <Route index element={<HomePage />} />
+            <Route path="live" element={<LivePage />} />
             <Route path="archive" element={<ArchivePage />} />
+            <Route path="programs" element={<ProgramsPage />} />
+            <Route path="cooperatewithus" element={<CooperateWithUsPage />} />
             <Route path="*" element={<Notfound />} />
           </Routes>
           <Menu />

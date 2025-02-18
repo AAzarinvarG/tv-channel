@@ -48,10 +48,12 @@ export default function Navbar() {
             />
           </svg>
           <div className={styles.headerBtnInNavbar}>
-            <button> Live Page </button>
+            <button onClick={() => navigate("/live")}> Live Page </button>
             <button onClick={() => navigate("/archive")}> Archive Page </button>
-            <button> Programs Page </button>
-            <button> Cooperate With Us Page </button>
+            <button onClick={() => navigate("/programs")}>Programs Page</button>
+            <button onClick={() => navigate("/cooperatewithus")}>
+              Cooperate With Us Page
+            </button>
           </div>
         </section>
         <button className={styles.loginBtn}> Login </button>
