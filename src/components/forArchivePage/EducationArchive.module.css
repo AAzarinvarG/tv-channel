@@ -1,12 +1,11 @@
 .educationArchiveSection {
-    width: 310px;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 15px;
 }
 
 .educationArchiveSection .educationArchivePosts {
-    width: 310px;
+    width: 100%;
     margin-top: 10px;
     display: flex;
 }
@@ -80,4 +79,54 @@
     font-size: 16px;
     font-family: "Roboto", serif;
     color: white;
+}
+
+@media (min-width: 850px) {
+    .educationArchiveSection {
+        margin-bottom: 50px;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost {
+        width: 220px;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div {
+        padding: 9px;
+        padding-bottom: 10px;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div h4 {
+        font-size: 1.2rem;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div section {
+        margin-top: 25px;
+    }
+}
+
+@media (min-width: 1560px) {
+    .educationArchiveSection .educationArchivePosts .archivePost {
+        width: 255px;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div h4 {
+        font-size: 1.3rem;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div section .seasonDiv,
+    .educationArchiveSection .educationArchivePosts .archivePost div section .episodeDiv {
+        height: 50px;
+        align-items: center;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div section .seasonDiv h4,
+    .educationArchiveSection .educationArchivePosts .archivePost div section .episodeDiv h4 {
+        font-size: 21px;
+        margin-top: -57px;
+    }
+
+    .educationArchiveSection .educationArchivePosts .archivePost div section .seasonDiv h3,
+    .educationArchiveSection .educationArchivePosts .archivePost div section .episodeDiv h3 {
+        font-size: 20px;
+    }
 }

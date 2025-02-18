@@ -1,12 +1,11 @@
 .newsArchiveSection {
-    width: 310px;
     margin-left: 10px;
     margin-top: 20px;
     margin-bottom: 40px;
 }
 
 .newsArchiveSection .newsArchivePosts {
-    width: 310px;
+    width: 100%;
     margin-top: 10px;
     display: flex;
 }
@@ -39,4 +38,33 @@
     font-family: "Roboto", serif;
     font-weight: 400;
     text-transform: capitalize;
+}
+
+@media (min-width: 850px) {
+    .newsArchiveSection {
+        margin-bottom: 6rem;
+    }
+
+    .newsArchiveSection .newsArchivePosts .archivePost {
+        width: 220px;
+    }
+
+    .newsArchiveSection .newsArchivePosts .archivePost div {
+        padding: 9px;
+        padding-bottom: 10px;
+    }
+
+    .newsArchiveSection .newsArchivePosts .archivePost div h4 {
+        font-size: 1.2rem;
+    }
+}
+
+@media (min-width: 1560px) {
+    .newsArchiveSection .newsArchivePosts .archivePost {
+        width: 255px;
+    }
+
+    .newsArchiveSection .newsArchivePosts .archivePost div h4 {
+        font-size: 1.3rem;
+    }
 }
