@@ -1,6 +1,6 @@
 import styles from "./ArchivePage.module.css";
 
-import Navbar from "../components/forHomePage/Navbar";
+import Navbar from "../components/Navbar";
 import AllArchiveSection from "../components/forArchivePage/AllArchiveSection";
 import EducationArchive from "../components/forArchivePage/EducationArchive";
 import NewsArchive from "../components/forArchivePage/NewsArchive";

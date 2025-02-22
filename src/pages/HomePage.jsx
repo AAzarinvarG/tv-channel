@@ -1,6 +1,6 @@
 // import styles from "./HomePage.module.css";
 
-import Navbar from "../components/forHomePage/Navbar";
+import Navbar from "../components/Navbar";
 import ProgramSection from "../components/forHomePage/ProgramSection";
 import LiveSection from "../components/forHomePage/LiveSection";
 import WeblogSection from "../components/forHomePage/WeblogSection";

@@ -10,6 +10,7 @@
   position: absolute;
   z-index: 2;
   user-select: none;
+  backdrop-filter: blur(2px);
 }
 
 .navbar section {

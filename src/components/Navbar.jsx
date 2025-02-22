@@ -1,5 +1,5 @@
 import styles from "./Navbar.module.css";
-import { UseContext } from "../../../context/contextONE";
+import { UseContext } from "../../context/contextONE";
 import { useNavigate } from "react-router-dom";
 
 export default function Navbar() {
