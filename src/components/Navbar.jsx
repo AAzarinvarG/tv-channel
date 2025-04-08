@@ -56,7 +56,12 @@ export default function Navbar() {
             </button>
           </div>
         </section>
-        <button className={styles.loginBtn}> Login </button>
+        <button
+          className={styles.loginBtn}
+          onClick={() => navigate("/live")}
+        >
+          Login
+        </button>
       </div>
     </>
   );

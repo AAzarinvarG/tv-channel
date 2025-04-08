@@ -1,0 +1,51 @@
+.archivePostsTitle {
+    width: 194px;
+    background-color: #A5CF51;
+    border-radius: 4px;
+    margin-top: -1rem;
+    outline: none;
+    color: white;
+    font-size: 16px;
+    font-weight: bold;
+    font-family: 'Roboto', serif;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+}
+
+.archivePostsTitle button {
+    font-size: 16px;
+    padding: 0.5rem 0;
+    color: white;
+    background: none;
+    border: 0;
+    font-weight: bold;
+    font-family: 'Roboto', serif;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-transform: capitalize;
+}
+
+.archivePostsTitle button svg {
+    width: 1.2rem;
+    margin-left: 2px;
+}
+
+.archivePostsTitle ul {
+    list-style: none;
+}
+
+.archivePostsTitle ul li {
+    padding: 0.5rem 0;
+    border-radius: 4px;
+    transition: 0.3s;
+    border-top: 1px solid rgba(0, 0, 0, 0.192);
+    cursor: pointer;
+    text-transform: capitalize;
+}
+
+.archivePostsTitle ul li:hover {
+    background-color: #729232;
+}

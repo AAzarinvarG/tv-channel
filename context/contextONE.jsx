@@ -6,6 +6,7 @@ export function Context({ children }) {
   const [menuStatus, setMenuStatus] = useState(false);
   const [homePageStatus, setHomePageStatus] = useState(true);
   const [windowWidth, setWindowWidth] = useState(window.innerWidth);
+  const [filterName, setFilterName] = useState("all");
 
   useEffect(() => {
     if (homePageStatus) {
@@ -25,6 +26,8 @@ export function Context({ children }) {
         homePageStatus,
         setHomePageStatus,
         windowWidth,
+        filterName,
+        setFilterName,
       }}
     >
       {children}

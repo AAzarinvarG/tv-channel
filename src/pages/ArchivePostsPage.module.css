@@ -1,0 +1,136 @@
+.archivePostsPage {
+    width: 100%;
+    position: absolute;
+    background: rgb(19, 5, 26);
+    background: linear-gradient(0deg,
+            rgba(19, 5, 26, 1) 16%,
+            rgba(78, 86, 58, 1) 85%);
+    margin-top: 90px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    user-select: none;
+}
+
+.archivePostsPage .allSwipersForArchivePosts {
+    width: 100%;
+    padding-left: 10px;
+    margin-top: 25px;
+}
+
+:global(.archivePostsSwiper) {
+    margin-bottom: 1.5rem;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost {
+    width: 176px;
+    height: 138px;
+    background-color: rgba(126, 166, 46, 0.5);
+    border-radius: 4px;
+    cursor: pointer;
+    display: flex;
+    flex-direction: column;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost .imgHeader {
+    width: 100%;
+    height: 106px;
+    background-size: cover;
+    border-radius: 4px 4px 0 0;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost div {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 4px;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost div h3 {
+    text-transform: capitalize;
+    color: white;
+    font-size: 15px;
+    font-weight: normal;
+    font-family: "Roboto", serif;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost div .seasonAndEpisodeSection div {
+    width: 24px;
+    height: 25px;
+    border-radius: 3px;
+    box-shadow: 0 0 2px rgba(161, 241, 0, 0.7);
+    margin-top: 4px;
+    margin-left: 6px;
+    background-color: rgba(90, 135, 2, 0.8);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost div .seasonAndEpisodeSection div h4 {
+    position: absolute;
+    color: white;
+    font-family: "Roboto", serif;
+    margin-top: -25px;
+    font-size: 12px;
+}
+
+.archivePostsPage .allSwipersForArchivePosts .archivePost div .seasonAndEpisodeSection div h5 {
+    color: white;
+    font-family: "Roboto", serif;
+}
+
+.archivePostsPage .pagesAccessSection {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.archivePostsPage .pagesAccessSection button {
+    width: 40%;
+    border: none;
+    cursor: pointer;
+    background: none;
+}
+
+.archivePostsPage .pagesAccessSection button:disabled {
+    opacity: 0.3;
+    cursor: not-allowed;
+}
+
+.archivePostsPage .pagesAccessSection button svg {
+    width: 3rem;
+    color: #A4CD50;
+    transition: 0.3s;
+}
+
+.archivePostsPage .pagesAccessSection .leftBtn:hover .leftIcon {
+    filter: drop-shadow(0 1px 5px #A4CD50);
+}
+
+.archivePostsPage .pagesAccessSection .rightBtn:hover .rightIcon {
+    filter: drop-shadow(0 1px 5px #A4CD50);
+}
+
+.archivePostsPage .pagesAccessSection .pageNumberSection {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.archivePostsPage .pagesAccessSection .pageNumberSection h2 {
+    color: white;
+    font-family: "Roboto", serif;
+    font-size: 2rem;
+}
+
+.archivePostsPage .pagesAccessSection .pageNumberSection h3 {
+    position: absolute;
+    color: white;
+    font-family: "Roboto", serif;
+    opacity: 0.6;
+    margin-top: 2.4rem;
+}

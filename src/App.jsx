@@ -8,6 +8,7 @@ import Notfound from "./pages/NotFound";
 import LivePage from "./pages/LivePage";
 import ProgramsPage from "./pages/ProgramsPage";
 import CooperateWithUsPage from "./pages/CooperateWithUsPage";
+import ArchivePostsPage from "./pages/ArchivePostsPage";
 
 function App() {
   return (
@@ -18,6 +19,7 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="live" element={<LivePage />} />
             <Route path="archive" element={<ArchivePage />} />
+            <Route path="archivePosts" element={<ArchivePostsPage />} />
             <Route path="programs" element={<ProgramsPage />} />
             <Route path="cooperatewithus" element={<CooperateWithUsPage />} />
             <Route path="*" element={<Notfound />} />
