@@ -763,6 +763,10 @@ export default function ArchivePostsPage() {
   });
 
   useEffect(() => {
+    dispatch({ type: "setPageNumber", value: 0 });
+  }, [filterName]);
+
+  useEffect(() => {
     dispatch({
       type: "setTotalNumberPages",
       value: Math.ceil(finalArray.length / 40),
