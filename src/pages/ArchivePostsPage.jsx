@@ -1,7 +1,7 @@
 import styles from "./ArchivePostsPage.module.css";
 
 import Navbar from "../components/Navbar";
-import ArchivePostsTitle from "./ArchivePostsTitle";
+import ArchivePostsTitle from "../components/forArchivePostsPage/ArchivePostsTitle";
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useReducer } from "react";
 import { UseContext } from "../../context/contextONE";

@@ -1,6 +1,6 @@
 import { useState } from "react";
 import styles from "./ArchivePostsTitle.module.css";
-import { UseContext } from "../../context/contextONE";
+import { UseContext } from "../../../context/contextONE";
 
 export default function ArchivePostsTitle() {
   const { filterName, setFilterName } = UseContext();
