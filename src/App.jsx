@@ -20,7 +20,10 @@ function App() {
             <Route index element={<HomePage />} />
             <Route path="live" element={<LivePage />} />
             <Route path="archivePage" element={<ArchivePage />} />
-            <Route path="/archivePage/archivePosts" element={<ArchivePostsPage />}>
+            <Route
+              path="/archivePage/archivePosts"
+              element={<ArchivePostsPage />}
+            >
               <Route //child
                 path="/archivePage/archivePosts/archive"
                 element={<Archive />}

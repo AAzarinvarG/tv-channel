@@ -49,7 +49,7 @@ export default function Navbar() {
           </svg>
           <div className={styles.headerBtnInNavbar}>
             <button onClick={() => navigate("/live")}> Live Page </button>
-            <button onClick={() => navigate("/archive")}> Archive Page </button>
+            <button onClick={() => navigate("/archivePage")}> Archive Page </button>
             <button onClick={() => navigate("/programs")}>Programs Page</button>
             <button onClick={() => navigate("/cooperatewithus")}>
               Cooperate With Us Page
