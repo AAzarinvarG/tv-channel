@@ -44,7 +44,7 @@ export default function Menu() {
         <div
           className={styles.pageLink}
           onClick={() => {
-            setMenuStatus(false);
+            clickOnCloseIconInMenu();
             navigate("/live");
           }}
         >
@@ -67,7 +67,7 @@ export default function Menu() {
         <div
           className={styles.pageLink}
           onClick={() => {
-            setMenuStatus(false);
+            clickOnCloseIconInMenu();
             navigate("/archivePage");
           }}
         >
@@ -90,7 +90,7 @@ export default function Menu() {
         <div
           className={styles.pageLink}
           onClick={() => {
-            setMenuStatus(false);
+            clickOnCloseIconInMenu();
             navigate("/programs");
           }}
         >
@@ -100,7 +100,7 @@ export default function Menu() {
         <div
           className={styles.pageLink}
           onClick={() => {
-            setMenuStatus(false);
+            clickOnCloseIconInMenu();
             navigate("/cooperatewithus");
           }}
         >
