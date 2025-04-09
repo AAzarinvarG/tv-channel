@@ -5,6 +5,7 @@ import ArchivePostsTitle from "../components/forArchivePostsPage/ArchivePostsTit
 import { Swiper, SwiperSlide } from "swiper/react";
 import { useEffect, useReducer } from "react";
 import { UseContext } from "../../context/contextONE";
+import { Outlet, useNavigate } from "react-router-dom";
 
 const initialState = {
   array1: [],
@@ -33,6 +34,8 @@ function reducer(state, action) {
 }
 
 export default function ArchivePostsPage() {
+  const navigate = useNavigate();
+
   const [
     { array1, array2, array3, array4, totalNumberPages, pageNumber },
     dispatch,
@@ -794,6 +797,7 @@ export default function ArchivePostsPage() {
 
   return (
     <>
+      <Outlet />
       <Navbar />
       <div className={styles.archivePostsPage}>
         <ArchivePostsTitle />
@@ -805,7 +809,10 @@ export default function ArchivePostsPage() {
             className="mySwiper archivePostsSwiper"
           >
             {array1.map((item) => (
-              <SwiperSlide key={item.id}>
+              <SwiperSlide
+                key={item.id}
+                onClick={() => navigate("/archivePage/archivePosts/archive")}
+              >
                 <div className={styles.archivePost}>
                   <div
                     className={styles.imgHeader}
@@ -839,7 +846,10 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array2.map((item) => (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide
+                  key={item.id}
+                  onClick={() => navigate("/archivePage/archivePosts/archive")}
+                >
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}
@@ -874,7 +884,10 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array3.map((item) => (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide
+                  key={item.id}
+                  onClick={() => navigate("/archivePage/archivePosts/archive")}
+                >
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}
@@ -909,7 +922,10 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array4.map((item) => (
-                <SwiperSlide key={item.id}>
+                <SwiperSlide
+                  key={item.id}
+                  onClick={() => navigate("/archivePage/archivePosts/archive")}
+                >
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}

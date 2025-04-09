@@ -7,7 +7,7 @@ export default function ArchiveTitleAndBtn({ title }) {
   return (
     <div className={styles.archiveTitleAndBtn}>
       <h3> {title} </h3>
-      <button onClick={() => navigate("/archivePosts")}> See more </button>
+      <button onClick={() => navigate("/archivePage/archivePosts")}> See more </button>
     </div>
   );
 }

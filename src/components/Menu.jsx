@@ -68,7 +68,7 @@ export default function Menu() {
           className={styles.pageLink}
           onClick={() => {
             setMenuStatus(false);
-            navigate("/archive");
+            navigate("/archivePage");
           }}
         >
           <svg
