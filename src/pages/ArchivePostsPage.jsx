@@ -819,7 +819,13 @@ export default function ArchivePostsPage() {
                     style={{ backgroundImage: `url(${item.img})` }}
                   ></div>
                   <div>
-                    <h3> {item.name} </h3>
+                    <h3
+                      className={`${
+                        item.category == "news" ? styles.marginTop : ""
+                      }`}
+                    >
+                      {item.name}
+                    </h3>
                     {item.category != "news" && (
                       <>
                         <div className={styles.seasonAndEpisodeSection}>
@@ -856,7 +862,13 @@ export default function ArchivePostsPage() {
                       style={{ backgroundImage: `url(${item.img})` }}
                     ></div>
                     <div>
-                      <h3> {item.name} </h3>
+                      <h3
+                        className={`${
+                          item.category == "news" ? styles.marginTop : ""
+                        }`}
+                      >
+                        {item.name}
+                      </h3>
                       {item.category != "news" && (
                         <>
                           <div className={styles.seasonAndEpisodeSection}>
@@ -894,7 +906,13 @@ export default function ArchivePostsPage() {
                       style={{ backgroundImage: `url(${item.img})` }}
                     ></div>
                     <div>
-                      <h3> {item.name} </h3>
+                      <h3
+                        className={`${
+                          item.category == "news" ? styles.marginTop : ""
+                        }`}
+                      >
+                        {item.name}
+                      </h3>
                       {item.category != "news" && (
                         <>
                           <div className={styles.seasonAndEpisodeSection}>
@@ -932,7 +950,13 @@ export default function ArchivePostsPage() {
                       style={{ backgroundImage: `url(${item.img})` }}
                     ></div>
                     <div>
-                      <h3> {item.name} </h3>
+                      <h3
+                        className={`${
+                          item.category == "news" ? styles.marginTop : ""
+                        }`}
+                      >
+                        {item.name}
+                      </h3>
                       {item.category != "news" && (
                         <>
                           <div className={styles.seasonAndEpisodeSection}>

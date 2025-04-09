@@ -54,6 +54,10 @@
     font-family: "Roboto", serif;
 }
 
+.marginTop {
+    margin-top: 7px;
+}
+
 .archivePostsPage .allSwipersForArchivePosts .archivePost div .seasonAndEpisodeSection div {
     width: 24px;
     height: 25px;
