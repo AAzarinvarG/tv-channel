@@ -41,714 +41,7 @@ export default function ArchivePostsPage() {
     dispatch,
   ] = useReducer(reducer, initialState);
 
-  const { filterName } = UseContext();
-
-  let totalArray = [
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/news.jpeg",
-      name: "in focus",
-      category: "news",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/breaking.jpg",
-      name: "breaking bad",
-      season: 5,
-      episode: 16,
-      category: "movies",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-    {
-      img: "/images/cosmos.jpg",
-      name: "a spacetime odyssey",
-      season: 1,
-      episode: 7,
-      category: "education",
-    },
-  ];
+  const { filterName, setSelectedArchive, totalArray } = UseContext();
 
   const array = totalArray.filter((item) => {
     if (filterName === "all") return item;
@@ -795,6 +88,11 @@ export default function ArchivePostsPage() {
     });
   }, [pageNumber, filterName]);
 
+  function changeRoute(item) {
+    navigate("/archivePage/archivePosts/archive");
+    setSelectedArchive(item);
+  }
+
   return (
     <>
       <Outlet />
@@ -809,10 +107,7 @@ export default function ArchivePostsPage() {
             className="mySwiper archivePostsSwiper"
           >
             {array1.map((item) => (
-              <SwiperSlide
-                key={item.id}
-                onClick={() => navigate("/archivePage/archivePosts/archive")}
-              >
+              <SwiperSlide key={item.id} onClick={() => changeRoute(item)}>
                 <div className={styles.archivePost}>
                   <div
                     className={styles.imgHeader}
@@ -820,9 +115,8 @@ export default function ArchivePostsPage() {
                   ></div>
                   <div>
                     <h3
-                      className={`${
-                        item.category == "news" ? styles.marginTop : ""
-                      }`}
+                      className={`${item.category == "news" ? styles.marginTop : ""
+                        }`}
                     >
                       {item.name}
                     </h3>
@@ -852,10 +146,7 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array2.map((item) => (
-                <SwiperSlide
-                  key={item.id}
-                  onClick={() => navigate("/archivePage/archivePosts/archive")}
-                >
+                <SwiperSlide key={item.id} onClick={() => changeRoute(item)}>
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}
@@ -863,9 +154,8 @@ export default function ArchivePostsPage() {
                     ></div>
                     <div>
                       <h3
-                        className={`${
-                          item.category == "news" ? styles.marginTop : ""
-                        }`}
+                        className={`${item.category == "news" ? styles.marginTop : ""
+                          }`}
                       >
                         {item.name}
                       </h3>
@@ -896,10 +186,7 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array3.map((item) => (
-                <SwiperSlide
-                  key={item.id}
-                  onClick={() => navigate("/archivePage/archivePosts/archive")}
-                >
+                <SwiperSlide key={item.id} onClick={() => changeRoute(item)}>
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}
@@ -907,9 +194,8 @@ export default function ArchivePostsPage() {
                     ></div>
                     <div>
                       <h3
-                        className={`${
-                          item.category == "news" ? styles.marginTop : ""
-                        }`}
+                        className={`${item.category == "news" ? styles.marginTop : ""
+                          }`}
                       >
                         {item.name}
                       </h3>
@@ -940,10 +226,7 @@ export default function ArchivePostsPage() {
               className="mySwiper archivePostsSwiper"
             >
               {array4.map((item) => (
-                <SwiperSlide
-                  key={item.id}
-                  onClick={() => navigate("/archivePage/archivePosts/archive")}
-                >
+                <SwiperSlide key={item.id} onClick={() => changeRoute(item)}>
                   <div className={styles.archivePost}>
                     <div
                       className={styles.imgHeader}
@@ -951,9 +234,8 @@ export default function ArchivePostsPage() {
                     ></div>
                     <div>
                       <h3
-                        className={`${
-                          item.category == "news" ? styles.marginTop : ""
-                        }`}
+                        className={`${item.category == "news" ? styles.marginTop : ""
+                          }`}
                       >
                         {item.name}
                       </h3>
