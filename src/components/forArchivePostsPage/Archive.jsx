@@ -8,7 +8,6 @@ export default function Archive() {
   const { selectedArchive, totalArray } = UseContext();
 
   const archive = totalArray.find(item => item.id === selectedArchive.id);
-  console.log(archive);
 
   return (
     <div className={styles.header}>
